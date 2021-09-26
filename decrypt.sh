@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $1 == "h" ]]
+if [[ $1 == "h" ]] || [[ $1 == "" ]] || [[ $1 == "-h"]]
 then
 	echo "USAGE:"
 	echo "To decrypt a GPG file without removing the source, parse its filename (WITHOUT EXTENSION)"
